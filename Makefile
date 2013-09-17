@@ -45,7 +45,7 @@ endif
 vpath %.c src
 vpath %.a lib
 
-CFLAGS += -Iinc -Ilib -Ilib/inc 
+CFLAGS += -Ilib -Ilib/inc 
 CFLAGS += -Ilib/inc/core -Ilib/inc/peripherals 
 
 SRCS += lib/startup_stm32f4xx.s # add startup file to build
